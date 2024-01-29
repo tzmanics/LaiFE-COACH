@@ -44,7 +44,7 @@ export default function Index() {
 
   return (
     <App title="Create your own AI chat bot">
-      <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
+      <main className="bg-green-200 md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
             {chatHistory.length === 0 ? (
